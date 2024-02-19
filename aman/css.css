@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap');
+/* font-family: "Poppins", sans-serif; */
+/* font-family: "Noto Sans", sans-serif; */
+/* font-family: "Kanit", sans-serif; */
+
+body{
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.nav{
+    background-color: rgb(28, 32, 30);
+    border-bottom: 2px solid  rgb(39, 43, 41);
+    position: sticky;
+    top: 0px;
+}
+.container{
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 1400px;
+}
+.nav-row{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 40px;
+
+}
+.logo{
+    color: aliceblue;
+    font-size: 24px;
+    text-decoration-line: none;
+}
+.logo strong{
+    font-weight: 700;
+    font-family: "Inknut Antiqua", serif;
+    
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Inknut Antiqua", serif;
+}
+
+.nav-list__link{
+    text-decoration-line: none;
+    color: aliceblue;
+}
+.FirstBlock{
+    background-color: rgb(28, 32, 30);
+    justify-content: center;
+    color: aliceblue;
+}
+.firstslideinfo{
+
+    padding-left: 200px;
+    height: 80vh;
+    padding-top: 10%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+}
+.paraone{
+    font-size: 24px;
+
+}
+
+
+
+.aboutMMM{
+    padding-top: 65px;
+    padding-left: 45%;
+    font-weight:300;
+    font-family: "Kanit", sans-serif;
+    font-size: 32px;
+    
+}
+.aboutinfo{
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    padding-top: 50px;
+}
+
+.ImageAbout{
+    width: 550px;
+    height: 300px;
+    border-radius: 20%;
+}
+.aboutAlmaty{
+    padding-top: 60px;
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+}
+.Alamaty{
+    width: 550px;
+    height: 300px;
+    border-radius: 20%;
+}
+.Moscow{
+    width: 550px;
+    height: 300px;
+    border-radius: 20%;
+}
+.aboutMoscow{
+    padding-top: 60px;
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+}
+.toolsMMM{
+    padding-top: 25px;
+    padding-left: 45%;
+    font-weight:300;
+    font-family: "Kanit", sans-serif;
+    font-size: 32px;
+    
+}
+.ToolsMMM{
+    padding-top: 11%;
+    padding-left: 45%;
+    font-weight:300;
+    font-family: "Kanit", sans-serif;
+    font-size: 32px;
+    
+}
+.images{
+    padding-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 10px;
+}
+.info{
+    font-size: 14px;
+    font-weight: 100;
+    max-width: 1700px;
+    display: flex;
+    justify-content: center;
+    column-gap: 80px;
+    font-family: "Inknut Antiqua", serif;
+}
+.footer{
+    padding:60px 0 50px ;
+    background-color: rgb(28, 32, 30);
+    color: white;
+}
+.footer__wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 27px;
+}
+.social{
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+}
+.copyright{
+    font-size: 16px;
+}
+
